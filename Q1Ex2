@@ -1,0 +1,27 @@
+public class Q1ex2 { 
+    public static void main(String[] args) {
+      /*
+      Barely Started (Focused on Q1Ex1 on Lab Period)
+      
+      Basic Format:
+      Title Screen
+      - Settings
+        > Minimum Range
+        > Maximum Range
+        > Number of Guesses
+      - Start
+      - End
+      
+      Game:
+      Generate random number
+      (int) Math.floor(Math.random()*range) + min
+      
+      If guess is lower, tell user to go higher and vice versa
+      run out of guesses, game over
+      guess the number, win
+      try again? (y/n)
+      */
+      
+    }
+    
+}
