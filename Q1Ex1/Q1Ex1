@@ -1,1 +1,69 @@
+public class Objects {
+    public static void main(String[] args) {
+        /*
+        Dogs
+        Dog 1:
+        Name: Abby
+        Personality: Shy
+        Years since adoption: 6
+        
+        Dog 2
+        Name: James
+        Personality: Brave
+        Years since adoption: 5
+        
+        Dog 3
+        Name: Rover
+        Personality: Playful
+        Years since adoption: 3
+        
+        Do James and Abby have the same personality? (Comparison)
+        Total years since adoption (Sum)
+        Has James been adopted longer than Rover? (Comparison)
+        */
+        
+        //Variable declaration
+        String dog1 = "Abby", dog2 = "James", dog3 = "Rover";
+        String personality1 = "Shy", personality2 = "Brave", 
+        personality3 = "Playful";
+        int adoptYear1 = 6, adoptYear2 = 5, adoptYear3 = 3;
+        
+        
+        
+        System.out.println("Dogs \n Dog 1 \n Name: " + dog1 + "\n Personality: "
+        + personality1 + "\n Years since adoption: " + adoptYear1);
+        System.out.println("\n Dog 2 \n Name: " + dog2 + "\n Personality: "
+        + personality2 + "\n Years since adoption: " + adoptYear2);
+        System.out.println("\n Dog 3 \n Name: " + dog3 + "\n Personality: "
+        + personality3 + "\n Years since adoption: " + adoptYear3);
+        
+        int totalAdoptyr = adoptYear1+adoptYear2+adoptYear3;
+        
+        //Operations
+         System.out.println("\n");
+         System.out.print("Do James and Abby have the same personality?: ");
+         //Question 1
+         if(personality1==personality2){
+         System.out.println("Yes");
+         }
+         else{
+         System.out.println("No");
+        }
+         //Question 2
+         System.out.println("Total years since adoption: " + 
+         totalAdoptyr);
+         
+         //Question 3
+         System.out.print("Has James been adopted longer than Rover?: ");
+         if(adoptYear2>adoptYear3){
+         System.out.println("Yes");
+         }
+         else{
+         System.out.println("No");
+         }
+         
+         //END
+        }
+}
+          
 
