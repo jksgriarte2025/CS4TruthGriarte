@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ex03truthgriarte;
+
+/**
+ *
+ * @author TRUTH
+ */
+public class Stadium {
+    String stadiumname, location;
+    double capacity, comfort;
+    
+    public Stadium(String stadiumName, String stadiumLoc,double stadiumCap, 
+            double stadiumComf) {
+    stadiumname = stadiumName;
+    location = stadiumLoc;
+    capacity = stadiumCap;
+    comfort = stadiumComf;
+}
+}
