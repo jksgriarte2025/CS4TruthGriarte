@@ -1,0 +1,29 @@
+/**
+ *
+ * @author TRUTH
+ */
+public class Singer {
+    String singername;
+    int noOfPerformances;
+    double earnings;
+    Song favoriteSong;
+    
+    public Singer(String singerName,Song singerFav){
+        singername = singerName;
+        favoriteSong = singerFav;
+        
+    
+}
+    public void performForAudience(int audienceAmt) {
+        noOfPerformances++;
+        earnings = earnings+(100*audienceAmt);
+        System.out.println(singername + " performed for " + audienceAmt + " people!\n" +
+                singername + "'s number of performances has increased by 1!"
+                + "\n" + singername + " now has " + earnings + " money!" );
+}
+    public void changeFavSong(Song newFav){
+        //change song in favsong
+        favoriteSong = newFav;
+        System.out.println(singername + "'s favorite song is now " + favoriteSong.songname + ".");
+    }
+}
