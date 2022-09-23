@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ex03truthgriarte;
+
+/**
+ *
+ * @author TRUTH
+ */
+public class Song {
+    String songname, singer, album;
+    double duration;
+    
+    public Song(String songName, String songSinger, String songAlbum,
+            double songDuration){
+        songname = songName;
+        singer = songSinger;
+        album = songAlbum;
+        duration = songDuration;
+        //song duration is seconds
+    }
+}
