@@ -1,0 +1,16 @@
+
+package ex06truthgriarte;
+
+public class GrassType extends Monster {
+    
+       public GrassType (String n, int m, int atkbase, int defbase){
+        super(n, "grass", "water", "fire", m,atkbase,defbase);
+                //test constructor
+    }
+    
+    @Override
+    public void special(){
+        super.special();
+        hp += 0.2*maxHP;
+    }
+}
