@@ -1,0 +1,18 @@
+package ex06truthgriarte;
+
+public class FireType extends Monster{
+    
+       public FireType (String n, int m, int atkbase, int defbase){
+        super(n, "fire", "grass", "water", m,atkbase,defbase);
+        atk = (int) (1.3*atkbase);
+        def = (int) (0.7*defbase);
+                //test constructor
+    }
+    
+    @Override
+    public void special(){
+        super.special();
+        atk += 2;
+        hp -= 0.10*maxHP;
+    }
+}
